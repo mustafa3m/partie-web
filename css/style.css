@@ -1,24 +1,25 @@
 /* Header */
 
 .header {
-  background: black;
+  background: var(--background-black);
   overflow: auto;
   line-height: 1.7em;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: 20px;
+  padding: var(--padding);
 }
 
 .header nav h1 {
-  padding: 20px;
+  padding: var(--padding);
   margin-bottom: 0;
 }
 .title-h1 {
   color: white;
 }
 
-.header nav h1 a ,.header nav h1 a {
+.header nav h1 a,
+.header nav h1 a {
   color: white;
 }
 
@@ -33,12 +34,12 @@
 
 .header nav ul li a {
   color: white;
-  padding: 20px;
+  padding: var(--padding);
 }
 
 .header nav ul li a:hover,
 .active {
-  background: #444;
+  background: var(--hoverground);
 }
 
 /* class */
@@ -72,7 +73,52 @@
 }
 
 .size-paragraph {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.separator {
+  margin: 20px auto;
+  height: 10px;
+  width: 100px;
+  background: #111;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: white;
+  color: #222;
+}
+
+.btn-primary:hover {
+  background: #222;
+  color: white;
+}
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* ... */
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: white;
+  color: #222;
+  border: 1px solid #222;
 }
 
 /* value proposition */
@@ -106,8 +152,6 @@
   gap: 3rem;
   margin-left: 1rem;
 }
-
-
 
 /* person */
 

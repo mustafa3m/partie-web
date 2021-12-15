@@ -3,10 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--font-family);
 }
 
 h1,
@@ -23,49 +26,3 @@ a {
 p {
   margin-bottom: 10px;
 }
-
-.my-10 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.separator {
-  margin: 20px auto;
-  height: 10px;
-  width: 100px;
-  background: #111;
-}
-
-.btn {
-  display: inline-block;
-  font-size: 14px;
-  padding: 15px 25px;
-  border-radius: 30px;
-  font-weight: 700;
-}
-
-.btn-primary {
-  background: white;
-  color: #222;
-}
-
-.btn-primary:hover {
-  background: #222;
-  color: white;
-}
-.my-20 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-/* ... */
-.btn-dark {
-  background: #222;
-  color: white;
-}
-
-.btn-dark:hover {
-  background: white;
-  color: #222;
-  border: 1px solid #222;
-}
-
